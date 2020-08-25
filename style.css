@@ -1,0 +1,82 @@
+
+.other-box {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+
+	border: 1px solid #fff;
+}
+.other-box__img {
+	width: 100%;
+	height: 200px;
+
+	border-radius: 10px;
+
+	background-image: url(toi.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+
+	opacity: 0.8 !important;
+
+	cursor: pointer;
+
+	transition: 0.5s;
+}
+.other-box:hover .other-box__img {
+	opacity: 1 !important;
+	transform: scale(1.07) !important;
+}
+#hover-box:hover .other-box__img {
+	opacity: 1 !important;
+	transform: scale(1.07) !important;
+}
+.other-box__img--vu {
+	background-image: url(phan-ngo-nhat-vu.png);
+}
+.other-box__img--shen {
+	background-image: url(shen.jpg);
+}
+.other-box__img--car {
+	background-image: url(car-kn.jpg);
+}
+.other-box__img--rocket {
+	background-image: url(rocket-kn.jpg);
+}
+.other-box__img--manas {
+	background-image: url(manas-kn.jpg);
+}
+.other-box__img--code {
+	background-image: url(code-kn.jpg);
+}
+.other-box__img--stars {
+	background-image: url(dem-sao-kn.jpg);
+}
+.other-box__img--chat {
+	background-image: url(chat-kn.png);
+}
+.other-box__img--trung {
+	background-image: url(trung-phan.jpg);
+}
+.service_area {
+	color: #fff;
+}
+
+.service_area h2 {
+	color: #fff;
+	border-color: #fff;
+}
+
+.service_area a {
+	color: yellow;
+}
+
+.service_area a:hover {
+	font-weight: bold;
+}
+
+footer {
+	padding: 50px 0;
+}
+
