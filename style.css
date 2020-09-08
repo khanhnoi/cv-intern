@@ -59,6 +59,9 @@
 .other-box__img--trung {
 	background-image: url(trung-phan.jpg);
 }
+.other-box__img--covid {
+	background-image: url(covid-kn.jpg);
+}
 .service_area {
 	color: #fff;
 }
