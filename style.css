@@ -62,6 +62,10 @@
 .other-box__img--covid {
 	background-image: url(covid-kn.jpg);
 }
+.other-box__img--codepen {
+	background-image: url(codepen-kn.png);
+}
+
 .service_area {
 	color: #fff;
 }
